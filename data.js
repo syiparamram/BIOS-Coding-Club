@@ -93,7 +93,7 @@ inside Coding Club.
                 title: "Benefits",
 
                 content: `
-✔ Sertifikat Resmi
+✔ Sertifikat 
 
 ✔ Portofolio Projek
 
