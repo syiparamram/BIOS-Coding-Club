@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIOS Coding Club Demo</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="bios">
+
+    <!-- ==========================
+            TITLE BAR
+    =========================== -->
+    <header class="title-bar">
+        PhoenixBIOS Setup Utility | Coding Club
+    </header>
+
+    <!-- ==========================
+            MENU BAR
+    =========================== -->
+    <nav class="menu-bar">
+        <div class="menu active" data-menu="main">
+            Main
+        </div>
+
+        <div class="menu" data-menu="coding">
+            Coding Club
+        </div>
+
+        <div class="menu" data-menu="gallery">
+            Gallery
+        </div>
+
+        <div class="menu" data-menu="challenge">
+            Challenge
+        </div>
+
+        <div class="menu" data-menu="join">
+            Join Us
+        </div>
+    </nav>
+
+    <!-- ==========================
+            MAIN AREA
+    =========================== -->
+    <main class="main-area">
+
+        <!-- LEFT SIDE -->
+        <section class="workspace">
+
+            <!-- ITEM PANEL -->
+            <aside class="item-panel">
+
+                <!-- Filled by JavaScript -->
+
+            </aside>
+
+            <!-- CONTENT PANEL -->
+            <section class="content-panel">
+
+                <!-- Filled by JavaScript -->
+
+            </section>
+
+        </section>
+
+        <!-- HELP PANEL -->
+        <aside class="help-panel">
+
+            <div class="help-title">
+                Item Specific Help
+            </div>
+
+            <div class="help-content">
+
+                <!-- Filled by JavaScript -->
+            </div>
+        </aside>
+    </main>
+
+    <!-- ==========================
+            STATUS BAR
+    =========================== -->
+<div class="status-bar">
+
+    <div class="status-item">
+        <span class="key">F1</span>
+        <span class="label">Help</span>
+    </div>
+
+<div class="status-item">
+    <span class="key">↑↓</span>
+    <span class="label" id="status-item">Select Item</span>
+</div>
+
+<div class="status-item">
+    <span class="key">← →</span>
+    <span class="label" id="status-menu">Select Menu</span>
+</div>
+
+<div class="status-item">
+    <span class="key">Enter</span>
+    <span class="label" id="status-enter">Open</span>
+</div>
+
+<div class="status-item">
+    <span class="key">Esc</span>
+    <span class="label" id="status-esc">Back</span>
+</div>
+
+</div>
+<script src="data.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
